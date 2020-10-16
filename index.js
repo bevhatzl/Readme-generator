@@ -19,7 +19,7 @@ let descriptionQ = new Question("Description of your project:", "description");
 let installQ = new Question("What are the installation instructions?", "installInfo");
 let usageQ = new Question("What does the user need to know about running your app?", "usage");
 let contribQ = new Question("What does the user need to know about contributing?", "contrib");
-let testQ = new Question("What are the test instruction?", "test");
+let testQ = new Question("What are the test instructions?", "test");
 let gitHubUserQ = new Question("What is your GitHub username?", "username");
 let emailQ = new Question("What is your email address?", "email");
 // Create the license question from a list
@@ -40,12 +40,6 @@ const questions = [
 ];
 
 
-
-// function to write README file
-function writeToFile(fileName, data) {
-
-}
-
 function promptUser() {
     return inquirer.prompt(questions);
 }
@@ -55,11 +49,8 @@ async function init() {
     console.log(chalk.green.inverse("Welcome to the good readme generator."));
     try {
         const answers = await promptUser();
-
         const mdGenerated = generateMarkdown(answers);
-
         await writeFileAsync("./utils/README.md", mdGenerated);
-
         console.log(chalk.green.inverse("Successfully created a readme file located in the utils folder!"));
     } catch (err) {
         console.log(err);
