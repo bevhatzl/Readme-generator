@@ -21,12 +21,12 @@ ${getLicenseIcon(data.license)}
 ${data.description}
 # Table of Contents
 <ul>
-[Installation](#installation)
-[Usage](#usage)
-[License](#license)
-[Contributing](#contributing)
-[Tests](#tests)
-[Questions](#questions)
+<li>[Installation](#installation)</li>
+<li>[Usage](#usage)</li>
+<li>[License](#license)</li>
+<li>[Contributing](#contributing)</li>
+<li>[Tests](#tests)</li>
+<li>[Questions](#questions)</li>
 </ul>
                
 ## Installation
