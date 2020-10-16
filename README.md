@@ -4,11 +4,11 @@
 An app to take user input and generate a readme file with a table of contents including internal links and links to the user's GitHub. This very file you are reading has been created using this readme-generator app!
 # Table of Contents
 <ul>
-<li> [Installation](#installation)</li>
-<li> [Usage](#usage)</li>
-<li> [Contributing](#contributing)</li>
-<li> [Tests](#tests)</li>
-<li> [Questions](#questions)</li>
+<li> [Installation](##installation)</li>
+<li> [Usage](##usage)</li>
+<li> [Contributing](##contributing)</li>
+<li> [Tests](##tests)</li>
+<li> [Questions](##questions)</li>
 </ul>
                
 ## Installation
