@@ -28,7 +28,7 @@ let licenseQ = {
     message: "Which license applies to your app?",
     name: "license",
     choices: [
-        "Apache License 2.0",
+        "Apache 2.0 License",
         "Boost Software License 1.0",
         "Eclipse Public License 1.0"
     ]
