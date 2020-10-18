@@ -8,6 +8,7 @@ An app to take user input and generate a readme file with a table of contents in
 * [Built With](#built-with)
 * [Screenshots](#screenshots)
 * [Video of app](#video)
+* [Sample readme](#sample)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
@@ -25,6 +26,9 @@ You will be prompted to enter the title, description and various other questions
 ## Video
 Play a video of the app running: 
 https://drive.google.com/file/d/1W6ToEYjK_WXl7dD4Cb1zIvZTa_y5ZuNv/view
+## Sample
+Find a sample readme file generated using this app here:
+https://github.com/bevhatzl/Readme-generator/tree/main/Sample
 ## Contributing
 If you want to contribute please view my GitHub account which is in the link below.
 ## Tests
